@@ -17,9 +17,7 @@ const HeroSection = () => {
                 // Same substring at the start will only be typed out once, initially
                 "Praba!",
                 1000, // wait 1s before replacing "Mice" with "Hamsters"
-                "Web Developer",
-                1000,
-                "React.JS Developer",
+                "React JS Developer",
                 1000,
               ]}
               wrapper="span"
@@ -52,7 +50,7 @@ const HeroSection = () => {
           </div>
         </div>
 
-        <div className="col-span-5 place-self-center mt-4  lg:mt-0">
+        <div className="col-span-5 place-self-center mt-4 pr-30 lg:mt-0">
           <div className="rounded-full bg-gray-900 w-[270px] h-[270px] lg:w-[270px] lg:h-[270px] relative pr-24 ">
             <img
               src="/images/hero-image.png"
