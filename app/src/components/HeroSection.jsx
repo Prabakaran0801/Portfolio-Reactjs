@@ -51,10 +51,10 @@ const HeroSection = () => {
         </div>
 
         <div className="col-span-5 place-self-center mt-4 pr-30 lg:mt-0">
-          <div className="rounded-full bg-gray-900 w-[270px] h-[270px] lg:w-[270px] lg:h-[270px] relative pr-24 ">
+          <div className="rounded-full bg-gray-900 w-[250px] h-[250px] lg:w-[270px] lg:h-[270px] relative pr-24 ">
             <img
               src="/images/hero-image.png"
-              height={300}
+              height={250}
               width={200}
               className="absolute rounded-full transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 "
             />
