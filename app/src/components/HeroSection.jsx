@@ -3,6 +3,7 @@ import React from "react";
 import { TypeAnimation } from "react-type-animation";
 import { motion } from "framer-motion";
 import Link from "next/link";
+import Image from "next/image";
 
 const HeroSection = () => {
   return (
@@ -70,7 +71,7 @@ const HeroSection = () => {
           className="col-span-4 place-self-center mt-4 pr-30 lg:mt-0"
         >
           <div className="rounded-full bg-gray-900 w-[250px] h-[250px] lg:w-[270px] lg:h-[270px] relative pr-24 ">
-            <img
+            <Image
               src="/images/hero-image.png"
               height={250}
               width={200}
