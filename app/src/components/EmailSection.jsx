@@ -13,7 +13,7 @@ const EmailSection = () => {
     >
       <div className="bg-[radial-gradient(ellipse_at_center,_var(--tw gradient-stops))] from-emerald-300 to-transparent rounded-full h-80 w-80 z-0 blur-lg absolute top-3/4 -left-4 transform -translate-x-1/2 translate-1/2"></div>
       <div className="z-10">
-        <h5 className="text-xl font-bold text-white my-2">Let's Connect</h5>
+        <h5 className="text-xl font-bold text-white my-2">Let Connect</h5>
         <p className=" text-slate-400 mb-4 max-w-md">
           Iam currently looking for new opportunities, my inbox is always open.
           Whether you have a question or just want to say hi,
@@ -73,7 +73,7 @@ const EmailSection = () => {
               name="message"
               id="message"
               className="bg-[#18191E] border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2.5"
-              placeholder="Let's talk about..."
+              placeholder="Lets talk about..."
             />
           </div>
           <button
