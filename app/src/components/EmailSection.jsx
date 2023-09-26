@@ -19,15 +19,11 @@ const EmailSection = () => {
           Whether you have a question or just want to say hi,
         </p>
         <div className="socials flex flex-row gap-2">
-          <Link href="https://github.com/Prabakaran0801/Portfolio-Reactjs">
+          <Link href="github.com">
             <Image src={GithubIcon} alt="Github Icon" />
           </Link>
 
-          <Link
-            href="www.linkedin.com/in/
-prabakaran-m08
-"
-          >
+          <Link href="LinkedinIcon.com">
             <Image src={LinkedinIcon} alt="Linkedin Icon" />
           </Link>
         </div>
