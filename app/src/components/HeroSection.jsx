@@ -56,7 +56,7 @@ const HeroSection = () => {
               {" "}
               <span
                 className=" block bg-black 
-              hover:from-zinc-400 hover:to-cyan-300 rounded-full px-3 py-2"
+              hover:from-zinc-400 text-white hover:to-cyan-300 rounded-full px-3 py-2"
               >
                 Download CV
               </span>
