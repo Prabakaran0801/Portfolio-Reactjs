@@ -39,8 +39,8 @@ const HeroSection = () => {
             className="text-gray-500 text-base sm:text-left mb-6 sm:text-lg
           lg:text-xl"
           >
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
-            porta velit id bibendum aliquet.
+            I am a full stack web developer with a passion for creating
+            interactive and responsive web applications.
           </p>
 
           <div>

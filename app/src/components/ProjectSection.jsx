@@ -8,10 +8,11 @@ const projectsData = [
     id: 1,
     title: "React Portfolio Website",
     descripton: "This project using ReactJS",
-    image: "/images/projects/1.png",
+    image: "/images/projects/portfolio.jpg",
     tag: ["All", "web"],
     gitUrl: "https://github.com/Prabakaran0801/Portfolio-Reactjs.git",
-    previewUrl: "/",
+    previewUrl:
+      "https://portfolio-reactjs-2x37jtz41-prabakaran0801.vercel.app/",
   },
   {
     id: 2,
@@ -23,12 +24,13 @@ const projectsData = [
     previewUrl: "/",
   },
   {
-    id: 2,
-    title: "React Portfolio Website",
-    descripton: "This project using ReactJS",
+    id: 3,
+    title: "Crypto Market Website",
+    descripton: "This project using React,Redux",
     image: "/images/projects/1.png",
     tag: ["All", "mobile"],
-    gitUrl: "/",
+    gitUrl:
+      "https://github.com/Prabakaran0801/Project-Cypto/tree/main/crypto-market",
     previewUrl: "/",
   },
 ];
