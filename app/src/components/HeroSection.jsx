@@ -50,8 +50,9 @@ const HeroSection = () => {
               Hire me
             </Link>
             <a
-              href="/"
-              download={"./pdf-sample.pdf"}
+              href="../../../public/pdf/Prabakaran-Resume.pdf"
+              target="_blank"
+              download="Prabakaran-Resume.pdf"
               className="px-1 inline-block py-1 w-full sm:w-fit  text-center rounded-full bg-gradient-to-r from-green-400 to-blue-500 hover:from-zinc-400 hover:to-cyan-300  mt-3"
             >
               {" "}
