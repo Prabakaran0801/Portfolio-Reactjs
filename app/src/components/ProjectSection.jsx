@@ -10,7 +10,7 @@ const projectsData = [
     descripton: "This project using ReactJS",
     image: "/images/projects/1.png",
     tag: ["All", "web"],
-    gitUrl: "/",
+    gitUrl: "https://github.com/Prabakaran0801/Portfolio-Reactjs.git",
     previewUrl: "/",
   },
   {
@@ -43,7 +43,7 @@ const ProjectSection = () => {
   };
 
   const filteredProjects = projectsData.filter((project) =>
-    project.tag.includes(tag)
+    project.tag.includes(tag),
   );
   const cardVariants = {
     initial: { y: 50, opacity: 0 },
