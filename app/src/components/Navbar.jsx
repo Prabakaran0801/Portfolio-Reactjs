@@ -23,14 +23,14 @@ const navLinks = [
 const Navbar = () => {
   const [navbarOpen, setNavbarOpen] = useState(false);
   return (
-    <nav className=" fixed top-0 left-0 right-0 z-10  lg:py-3 bg-[#121212] opacity-100">
-      <div className="flex flex-wrap items-center justify-between mx-auto px-3">
-        <Link
+    <nav className=" fixed top-0 left-0 right-0 z-10  lg:py-3 bg-[#1212127c] opacity-100">
+      <div className="flex flex-wrap items-center justify-around mx-auto px-3">
+        {/* <Link
           href={"/"}
           className="text-2xl md:text-4xl text-white font-semibold"
         >
           LOGO
-        </Link>
+        </Link> */}
         <div className="mobile-menu mt-1 py-3 block md:hidden">
           {!navbarOpen ? (
             <button
