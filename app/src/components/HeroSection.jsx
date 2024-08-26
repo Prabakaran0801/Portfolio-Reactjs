@@ -4,7 +4,6 @@ import { TypeAnimation } from "react-type-animation";
 import { motion } from "framer-motion";
 import Link from "next/link";
 import Image from "next/image";
-import Resume from "../../../public/pdf/Resume.pdf";
 
 const HeroSection = () => {
   return (
@@ -51,7 +50,7 @@ const HeroSection = () => {
               Hire me
             </Link>
             <a
-              href={Resume}
+              href="/pdf/Resume.pdf"
               target="_blank"
               download="Resume"
               className="px-1 inline-block py-1 w-full sm:w-fit  text-center rounded-full bg-gradient-to-r from-green-400 to-blue-500 hover:from-zinc-400 hover:to-cyan-300  mt-3"

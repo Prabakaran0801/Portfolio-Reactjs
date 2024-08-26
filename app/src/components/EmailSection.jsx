@@ -15,15 +15,18 @@ const EmailSection = () => {
       <div className="z-10">
         <h5 className="text-xl font-bold text-white my-2">Let Connect</h5>
         <p className=" text-slate-400 mb-4 max-w-md">
-          Iam currently looking for new opportunities, my inbox is always open.
-          Whether you have a question or just want to say hi,
+          My inbox is always open you!. Whether you have a question or just want
+          to say hi,
         </p>
         <div className="socials flex flex-row gap-2">
-          <Link href="github.com">
+          <Link href="https://github.com/Prabakaran0801" target="_blank">
             <Image src={GithubIcon} alt="Github Icon" />
           </Link>
 
-          <Link href="LinkedinIcon.com">
+          <Link
+            href="https://www.linkedin.com/in/prabakaran-m08/"
+            target="_blank"
+          >
             <Image src={LinkedinIcon} alt="Linkedin Icon" />
           </Link>
         </div>
