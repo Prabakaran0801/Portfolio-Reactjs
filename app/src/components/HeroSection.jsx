@@ -38,22 +38,22 @@ const HeroSection = () => {
             className="text-gray-500 text-base sm:text-left mb-6 sm:text-lg
           lg:text-xl"
           >
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
-            porta velit id bibendum aliquet.
+            I&apos;m a Full Stack Software Engineer with experience in Website,
+            Mobile, and Software development. Check out my projects and skills.
           </p>
 
           <div>
-            <Link
+            {/* <Link
               href=""
               className="px-6 inline-block py-3 mr-3 w-full sm:w-fit text-center rounded-full bg-gradient-to-br from-green-400 to-blue-500  hover:from-zinc-400 hover:to-cyan-300 text-black"
             >
               Hire me
-            </Link>
+            </Link> */}
             <a
               href="/pdf/Resume.pdf"
               target="_blank"
               download="Resume"
-              className="px-1 inline-block py-1 w-full sm:w-fit  text-center rounded-full bg-gradient-to-r from-green-400 to-blue-500 hover:from-zinc-400 hover:to-cyan-300  mt-3"
+              className="px-1 inline-block py-1 w-full sm:w-fit sticky text-center rounded-full bg-gradient-to-r from-green-400 to-blue-500 hover:from-zinc-400 hover:to-cyan-300  mt-3"
             >
               {" "}
               <span
