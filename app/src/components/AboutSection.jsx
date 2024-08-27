@@ -8,7 +8,7 @@ import {
   Full_stack,
   Other_skill,
   Skill_data,
-} from "@/constants";
+} from "../../../constants/index";
 import SkillDataProvider from "./sub/SkillDataProvider";
 import SkillText from "./sub/SkillText";
 
