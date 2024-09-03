@@ -52,7 +52,7 @@ const HeroSection = () => {
             <a
               href="/pdf/Resume.pdf"
               target="_blank"
-              download="Resume"
+              download="Prabakaran_Resume"
               className="px-1 inline-block py-1 w-full sm:w-fit sticky text-center rounded-full bg-gradient-to-r from-green-400 to-blue-500 hover:from-zinc-400 hover:to-cyan-300  mt-3"
             >
               {" "}
