@@ -5,6 +5,8 @@ export async function POST(request) {
   try {
     const { email, subject, message } = await request.json();
 
+    console.log({ email });
+
     // Create a transporter object using the default SMTP transport
     let transporter = nodemailer.createTransport({
       host: "smtp.gmail.com",
@@ -16,9 +18,9 @@ export async function POST(request) {
       },
     });
 
-    // Send mail
     await transporter.sendMail({
-      from: `"Portfolio Contact" <${email}>`,
+      from: `"Portfolio Contact" <${process.env.EMAIL_USER}>`,
+      replyTo: email,
       to: process.env.EMAIL_USER,
       subject: subject,
       text: message,
