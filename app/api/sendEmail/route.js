@@ -7,7 +7,7 @@ export async function POST(request) {
 
     // Create a transporter object using the default SMTP transport
     let transporter = nodemailer.createTransport({
-      host: "gmail",
+      host: "smtp.gmail.com",
       port: 587,
       secure: false,
       auth: {
