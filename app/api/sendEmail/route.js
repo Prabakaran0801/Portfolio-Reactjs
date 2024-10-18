@@ -7,7 +7,7 @@ export async function POST(request) {
 
     // Create a transporter object using the default SMTP transport
     let transporter = nodemailer.createTransport({
-      host: "smtp.gmail.com",
+      host: "gmail",
       port: 587,
       secure: false,
       auth: {
@@ -29,9 +29,12 @@ export async function POST(request) {
       { status: 200 }
     );
   } catch (error) {
-    console.error(error);
+    console.error(
+      "Error occurred while sending email: ",
+      error.message || error
+    );
     return NextResponse.json(
-      { error: "Failed to send email" },
+      { error: "Failed to send email", details: error.message },
       { status: 500 }
     );
   }
